@@ -1,18 +1,3 @@
-"""
-Why this file exists:
-    The assignment requires a Streamlit frontend so users can chat without using
-    Swagger, curl, or Postman.
-
-Responsibility:
-    - Show a clean, attractive chatbot interface.
-    - Display conversation history, memory, Knowledge Graph status, retrieved
-      documents, tool output, and evaluation scores.
-    - Call the FastAPI backend endpoints.
-
-How it connects to the project:
-    Start FastAPI first, then run this Streamlit app. It communicates with the
-    backend at http://localhost:8000.
-"""
 
 from typing import Any, Dict, List
 
