@@ -1,16 +1,3 @@
-"""
-Why this file exists:
-    The assignment requires a Knowledge Graph using Neo4j Community Edition.
-
-Responsibility:
-    - Connect to Neo4j.
-    - Store extracted entities and relationships.
-    - Retrieve graph facts related to a user question.
-
-How it connects to the project:
-    The ingestion pipeline writes entities/relationships here. The Hybrid RAG and
-    Knowledge Graph LangGraph nodes read graph context from Neo4j.
-"""
 
 import re
 from typing import Dict, List
