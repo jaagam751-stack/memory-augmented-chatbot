@@ -1,0 +1,53 @@
+Retrieval-Augmented Generation (RAG)
+
+What is RAG?
+
+Retrieval-Augmented Generation (RAG) is an AI architecture that combines
+information retrieval with a Large Language Model (LLM). Instead of
+relying only on the model’s internal knowledge, RAG retrieves relevant
+documents from a knowledge base and uses them to generate accurate
+answers.
+
+Main Components
+
+1.  Document Loader
+2.  Text Splitter
+3.  Embedding Model
+4.  Vector Database (FAISS)
+5.  Retriever
+6.  Large Language Model (Gemini)
+
+Workflow
+
+1.  Load documents.
+2.  Split documents into chunks.
+3.  Create embeddings.
+4.  Store embeddings in FAISS.
+5.  User asks a question.
+6.  Retrieve top-k relevant chunks.
+7.  Send retrieved context to the LLM.
+8.  Generate the final answer.
+
+Advantages
+
+-   Reduces hallucinations.
+-   Uses up-to-date information.
+-   Improves answer accuracy.
+-   Supports private company documents.
+
+Hybrid RAG
+
+Hybrid RAG combines: - Semantic Search (Embeddings) - Keyword Search
+(BM25 or similar) - Knowledge Graph (Neo4j)
+
+This improves retrieval quality.
+
+LangGraph
+
+LangGraph can orchestrate a workflow: Input -> Memory -> Hybrid RAG ->
+Knowledge Graph -> Tool Calling -> LLM -> Evaluation -> Response
+
+Conclusion
+
+RAG is widely used for document question answering, enterprise chatbots,
+customer support assistants, and AI knowledge assistants.

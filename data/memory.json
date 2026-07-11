@@ -1,0 +1,220 @@
+{
+  "default_user": {
+    "profile": {
+      "name": "Living"
+    },
+    "preferences": [],
+    "conversations": [
+      {
+        "time": "2026-07-09T18:11:56.593458Z",
+        "question": "Hi, my name is Aagam.",
+        "answer": "Hi Aagam! It's great to meet you. How can I help you today?"
+      },
+      {
+        "time": "2026-07-09T18:14:18.617272Z",
+        "question": "What is my name?",
+        "answer": "Your name is Aagam."
+      },
+      {
+        "time": "2026-07-09T18:14:32.540630Z",
+        "question": "What is my name?",
+        "answer": "Your name is Aagam."
+      },
+      {
+        "time": "2026-07-09T18:28:45.180640Z",
+        "question": "My name is Agam Jain. I live in Jaipur.",
+        "answer": "Okay, Agam Jain! It's good to know you live in Jaipur. I've updated your profile with this information."
+      },
+      {
+        "time": "2026-07-09T18:29:37.025025Z",
+        "question": "My name is Aagam Jain. I live in Jaipur.",
+        "answer": "Okay, Aagam Jain! It's good to know you live in Jaipur. I've updated your profile with this information."
+      },
+      {
+        "time": "2026-07-09T18:31:48.222168Z",
+        "question": "What is the weather in Jaipur?",
+        "answer": "The weather in Jaipur is scattered clouds, with a temperature of 30.53\u00b0C, feeling like 33.43\u00b0C. The humidity is 58%, and the wind is 1.51 m/s."
+      },
+      {
+        "time": "2026-07-09T18:32:56.456096Z",
+        "question": "Who is the CEO of OpenAI?",
+        "answer": "Sam Altman is the CEO of OpenAI."
+      },
+      {
+        "time": "2026-07-09T18:49:00.915815Z",
+        "question": "What is Retrieval-Augmented Generation?",
+        "answer": "Retrieval-Augmented Generation (RAG) is an AI architecture that combines information retrieval with a Large Language Model (LLM). It works by retrieving relevant documents from a knowledge base and using them to generate accurate answers, rather than relying solely on the model's internal knowledge."
+      },
+      {
+        "time": "2026-07-09T19:17:05.901743Z",
+        "question": "what is rag",
+        "answer": "\u26a0\ufe0f Gemini free API quota exceeded.\n\nPlease wait a minute or use another Google API key."
+      },
+      {
+        "time": "2026-07-10T07:54:40.500911Z",
+        "question": "hello ,my name is aagam jain",
+        "answer": "Hello Aagam Jain! It's good to meet you. I've updated your profile with your name."
+      },
+      {
+        "time": "2026-07-10T07:55:57.500989Z",
+        "question": "who develop open ai",
+        "answer": "OpenAI was developed by a group of tech luminaries including Sam Altman, Elon Musk, Greg Brockman, and Ilya Sutskever. It was founded in December 2015."
+      },
+      {
+        "time": "2026-07-10T07:56:55.288846Z",
+        "question": "what is the weather in Jaipur ?",
+        "answer": "The current weather in Jaipur is a few clouds, with a temperature of 37.66\u00b0C, feeling like 40.61\u00b0C. The humidity is 35%, and the wind speed is 6.24 m/s."
+      },
+      {
+        "time": "2026-07-10T07:58:50.382806Z",
+        "question": "what is aagam's education",
+        "answer": "I don't have information about your personal education, Aagam.\n\nHowever, I found some information about \"Aagam\" as an educational platform:\n*   Aagam is India's first OTT (over-the-top) media service platform for education.\n*   It has partnered with Santy Tutorials to integrate IB and CIE curricula.\n*   Aagam also appears to be a renowned name in the field of educational books."
+      },
+      {
+        "time": "2026-07-10T08:53:14.891227Z",
+        "question": "who is aagam?",
+        "answer": "Based on our conversations and the information I have:\n\nYou are Aagam Jain.\n*   You live in Jaipur.\n*   You have a GitHub profile: `https://github.com/jaagam751-stack`\n*   You also have a LinkedIn profile: `https://www.linkedin.com/in/aagamj01/`\n\nThere are also other public figures and entities named \"Agam,\" such as a Carnatic rock band and a vocalist/music producer named Agam Aggarwal, but these are different from you."
+      },
+      {
+        "time": "2026-07-10T08:55:05.704999Z",
+        "question": "hy aagam this side",
+        "answer": "Hello Aagam! It's good to hear from you."
+      },
+      {
+        "time": "2026-07-10T08:57:51.241099Z",
+        "question": "What are the skills mentioned in the resume?",
+        "answer": "\u26a0\ufe0f Gemini free API quota exceeded.\n\nPlease wait a minute or use another Google API key."
+      },
+      {
+        "time": "2026-07-10T09:36:27.869813Z",
+        "question": "hy aagam this side",
+        "answer": "\u26a0\ufe0f LLM Error:\nError calling model 'gemini-2.5-flash' (NOT_FOUND): 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOT_FOUND'}}"
+      },
+      {
+        "time": "2026-07-10T09:53:40.066403Z",
+        "question": "hy",
+        "answer": "\u26a0\ufe0f LLM Error:\nError calling model 'gemini-2.5-flash-lite' (NOT_FOUND): 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOT_FOUND'}}"
+      },
+      {
+        "time": "2026-07-10T10:24:19.600556Z",
+        "question": "hyy",
+        "answer": "Hello Aagam! It's good to hear from you."
+      },
+      {
+        "time": "2026-07-10T10:26:56.163562Z",
+        "question": "what is the weather in jaipur",
+        "answer": "\u26a0\ufe0f Gemini free API quota exceeded.\n\nPlease wait a minute or use another Google API key."
+      },
+      {
+        "time": "2026-07-10T15:59:06.956782Z",
+        "question": "hy aagam this side what is my education",
+        "answer": "Hello Aagam!\n\nYour education details are:\n*   **B.Tech in Artificial Intelligence & Data Science** from Poornima College of Engineering, Jaipur (2023\u20132027), with a CGPA of 9.52.\n*   **Senior Secondary (XII)** from Sanskar Public School, Bassi, Jaipur (2021\u20132022), with 89.80%.\n*   **Secondary (X)** from Madhyamik Adarsh V.M. School, Lawan, Dausa (2019\u20132020), with 91.17%."
+      },
+      {
+        "time": "2026-07-10T16:13:51.406879Z",
+        "question": "hy aagam this side i am living in jaipur",
+        "answer": "\u26a0\ufe0f Gemini free API quota exceeded.\n\nPlease wait a minute or use another Google API key."
+      },
+      {
+        "time": "2026-07-10T19:12:55.516602Z",
+        "question": "hy aagam this side my favourite language is python ",
+        "answer": "\u26a0\ufe0f Gemini free API quota exceeded.\n\nPlease wait a minute or use another Google API key."
+      },
+      {
+        "time": "2026-07-10T19:16:31.388234Z",
+        "question": "Who is the CEO of OpenAI",
+        "answer": "\u26a0\ufe0f Gemini free API quota exceeded.\n\nPlease wait a minute or use another Google API key."
+      },
+      {
+        "time": "2026-07-11T05:08:03.172391Z",
+        "question": "What's the weather in Jaipur?",
+        "answer": "\u26a0\ufe0f Gemini free API quota exceeded.\n\nPlease wait a minute or use another Google API key."
+      },
+      {
+        "time": "2026-07-11T05:25:45.677476Z",
+        "question": "what is rag?",
+        "answer": "\u26a0\ufe0f Gemini free API quota exceeded.\n\nPlease wait a minute or use another Google API key."
+      },
+      {
+        "time": "2026-07-11T05:28:13.932354Z",
+        "question": "what is open ai",
+        "answer": "\u26a0\ufe0f Gemini free API quota exceeded.\n\nPlease wait a minute or use another Google API key."
+      },
+      {
+        "time": "2026-07-11T05:39:05.122656Z",
+        "question": "Hi, this is Aagam. Which city do I live in?",
+        "answer": "\u26a0\ufe0f Gemini free API quota exceeded.\n\nPlease wait a minute or use another Google API key."
+      },
+      {
+        "time": "2026-07-11T05:46:37.074497Z",
+        "question": "Hello",
+        "answer": "\ud83d\udc4b Hello! Welcome to the Memory-Augmented Chatbot.\n\nI can help you with:\n\u2022 \ud83d\udcc4 Questions from uploaded PDFs\n\u2022 \ud83e\udde0 Long-term memory\n\u2022 \ud83d\udd78\ufe0f Knowledge Graph facts\n\u2022 \ud83c\udf26\ufe0f Weather\n\u2022 \ud83c\udf10 Latest web information\n\nHow can I help you today?"
+      },
+      {
+        "time": "2026-07-11T05:46:39.190284Z",
+        "question": "Hello",
+        "answer": "\ud83d\udc4b Hello! Welcome to the Memory-Augmented Chatbot.\n\nI can help you with:\n\u2022 \ud83d\udcc4 Questions from uploaded PDFs\n\u2022 \ud83e\udde0 Long-term memory\n\u2022 \ud83d\udd78\ufe0f Knowledge Graph facts\n\u2022 \ud83c\udf26\ufe0f Weather\n\u2022 \ud83c\udf10 Latest web information\n\nHow can I help you today?"
+      },
+      {
+        "time": "2026-07-11T05:46:45.269100Z",
+        "question": "Hello",
+        "answer": "\ud83d\udc4b Hello! Welcome to the Memory-Augmented Chatbot.\n\nI can help you with:\n\u2022 \ud83d\udcc4 Questions from uploaded PDFs\n\u2022 \ud83e\udde0 Long-term memory\n\u2022 \ud83d\udd78\ufe0f Knowledge Graph facts\n\u2022 \ud83c\udf26\ufe0f Weather\n\u2022 \ud83c\udf10 Latest web information\n\nHow can I help you today?"
+      },
+      {
+        "time": "2026-07-11T05:46:46.621742Z",
+        "question": "Hello",
+        "answer": "\ud83d\udc4b Hello! Welcome to the Memory-Augmented Chatbot.\n\nI can help you with:\n\u2022 \ud83d\udcc4 Questions from uploaded PDFs\n\u2022 \ud83e\udde0 Long-term memory\n\u2022 \ud83d\udd78\ufe0f Knowledge Graph facts\n\u2022 \ud83c\udf26\ufe0f Weather\n\u2022 \ud83c\udf10 Latest web information\n\nHow can I help you today?"
+      },
+      {
+        "time": "2026-07-11T05:46:47.426818Z",
+        "question": "Hello",
+        "answer": "\ud83d\udc4b Hello! Welcome to the Memory-Augmented Chatbot.\n\nI can help you with:\n\u2022 \ud83d\udcc4 Questions from uploaded PDFs\n\u2022 \ud83e\udde0 Long-term memory\n\u2022 \ud83d\udd78\ufe0f Knowledge Graph facts\n\u2022 \ud83c\udf26\ufe0f Weather\n\u2022 \ud83c\udf10 Latest web information\n\nHow can I help you today?"
+      },
+      {
+        "time": "2026-07-11T05:47:12.083140Z",
+        "question": "Hello",
+        "answer": "\ud83d\udc4b Hello! Welcome to the Memory-Augmented Chatbot.\n\nI can help you with:\n\u2022 \ud83d\udcc4 Questions from uploaded PDFs\n\u2022 \ud83e\udde0 Long-term memory\n\u2022 \ud83d\udd78\ufe0f Knowledge Graph facts\n\u2022 \ud83c\udf26\ufe0f Weather\n\u2022 \ud83c\udf10 Latest web information\n\nHow can I help you today?"
+      },
+      {
+        "time": "2026-07-11T05:47:14.056089Z",
+        "question": "Hello",
+        "answer": "\ud83d\udc4b Hello! Welcome to the Memory-Augmented Chatbot.\n\nI can help you with:\n\u2022 \ud83d\udcc4 Questions from uploaded PDFs\n\u2022 \ud83e\udde0 Long-term memory\n\u2022 \ud83d\udd78\ufe0f Knowledge Graph facts\n\u2022 \ud83c\udf26\ufe0f Weather\n\u2022 \ud83c\udf10 Latest web information\n\nHow can I help you today?"
+      },
+      {
+        "time": "2026-07-11T06:04:48.803524Z",
+        "question": "hy what is open ai",
+        "answer": "\u26a0\ufe0f Gemini free API quota exceeded.\n\nPlease wait a minute or use another Google API key."
+      },
+      {
+        "time": "2026-07-11T07:10:38.657000Z",
+        "question": "hy what is rag?",
+        "answer": "Hi Living! \n\n**Retrieval-Augmented Generation (RAG)** is an AI architecture that helps a Large Language Model (LLM) give more accurate and up-to-date answers. \n\nThink of it like an **open-book exam** for AI:\n1. **Retrieve:** When you ask a question, RAG searches a specific knowledge base (like your uploaded documents) to find the most relevant facts.\n2. **Generate:** It then passes those facts to the LLM so it can write a precise, context-based answer.\n\n### Why is RAG useful?\n* **Reduces \"hallucinations\" (made-up facts):** The AI bases its answers on the actual documents provided to it.\n* **Up-to-date information:** It can answer questions using the latest data without needing to retrain the entire AI model.\n* **Supports private documents:** It allows you to safely use private company files or personal notes to get answers.\n\n### Key Components of RAG:\n* **Document Loader & Text Splitter:** To import and break down documents into readable chunks.\n* **Embedding Model & Vector Database (like FAISS):** To convert text into mathematical representations so the system can easily search through them.\n* **Retriever:** To find the best matching information when you ask a question.\n* **Large Language Model (like Gemini):** To read the retrieved information and write back to you in natural language."
+      },
+      {
+        "time": "2026-07-11T07:13:00.834667Z",
+        "question": "what is the weather  in jaipur?",
+        "answer": "Hi Living! \n\nThe current weather in Jaipur is **overcast clouds** with a temperature of **35.5\u00b0C** (which feels like 36.66\u00b0C). \n\nHere are a few more details:\n* **Humidity:** 35%\n* **Wind Speed:** 6.1 m/s"
+      },
+      {
+        "time": "2026-07-11T07:14:30.747328Z",
+        "question": "what is aagam's education ?",
+        "answer": "Hi Living! Based on Aagam Jain's resume, here are the details of his education:\n\n* **Degree:** B.Tech in Artificial Intelligence & Data Science\n* **Institution:** Poornima College of Engineering, Jaipur\n* **Duration:** 2023 \u2013 2027 (Currently an undergraduate)\n* **CGPA:** 9.52"
+      },
+      {
+        "time": "2026-07-11T07:30:03.763590Z",
+        "question": "what is rag?",
+        "answer": "Hi Living! \n\n**Retrieval-Augmented Generation (RAG)** is an AI architecture that combines information retrieval with a Large Language Model (LLM). Instead of relying only on the model's pre-trained knowledge, RAG retrieves relevant facts from an external knowledge base to generate highly accurate and context-rich answers.\n\nHere is a simple breakdown based on our project documents:\n\n### How RAG Works (The Workflow)\n1. **Load & Split:** Documents are imported and broken down into smaller, readable text chunks.\n2. **Embed & Store:** These chunks are converted into mathematical representations (embeddings) and stored in a **Vector Database** (like FAISS).\n3. **Retrieve:** When you ask a question, the system searches the database and retrieves the most relevant chunks of information.\n4. **Generate:** The retrieved context is sent to the LLM (like Gemini) so it can write a precise, fact-based answer.\n\n### Key Components of RAG\n* **Document Loader & Text Splitter** (to prepare the data)\n* **Embedding Model & Vector Database** (to store and search the data)\n* **Retriever** (to fetch the right information)\n* **Large Language Model** (to generate the final natural language response)\n\n### Why is RAG so useful?\n* **Reduces \"hallucinations\"** (made-up facts) by grounding the AI's answers in real documents.\n* **Provides up-to-date information** without needing to retrain the entire AI model.\n* **Supports private documents**, allowing you to safely query personal notes or company files.\n\n### What is Hybrid RAG?\nOur documents also highlight **Hybrid RAG**, which improves retrieval quality even further by combining:\n* **Semantic Search** (understanding the meaning behind your question)\n* **Keyword Search** (matching exact words)\n* **Knowledge Graphs** (using structured relationships between facts, like Neo4j)"
+      },
+      {
+        "time": "2026-07-11T07:33:02.297304Z",
+        "question": "who is ceo of celebal technologies",
+        "answer": "Hi Living! \n\nBased on the provided documents and context, the information about who the CEO of Celebal Technologies is is currently missing. The available files only contain details from Aagam Jain's resume, such as his education, skills, and achievements."
+      },
+      {
+        "time": "2026-07-11T07:33:26.883497Z",
+        "question": "who is ceo of celebal tachnologies",
+        "answer": "Hi Living! \n\nBased on the provided documents and context, the information about who the CEO of Celebal Technologies is is currently missing. The available files only contain details regarding Aagam Jain's education, achievements, and certifications."
+      }
+    ]
+  }
+}
