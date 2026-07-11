@@ -163,7 +163,7 @@ memory_augmented_chatbot/
 |---|---|
 | Programming Language | Python 3.11+ |
 | Agent Workflow | LangGraph |
-| LLM | Google Gemini (Flash family — see [Model Configuration](#model-configuration--important)) |
+| LLM | Google Gemini 3.5 Flash |
 | Embeddings | Hugging Face (`sentence-transformers/all-MiniLM-L6-v2`) |
 | Vector Database | FAISS |
 | Knowledge Graph | Neo4j Community Edition |
