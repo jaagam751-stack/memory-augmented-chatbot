@@ -1,16 +1,3 @@
-"""
-Why this file exists:
-    Long-term memory lets the chatbot remember useful user facts across sessions.
-
-Responsibility:
-    - Store user profile data such as name and preferences.
-    - Store previous conversations in a local JSON file.
-    - Retrieve memory automatically for each chat.
-
-How it connects to the project:
-    The LangGraph Memory Retrieval node reads from this store. ChatService updates
-    it after each answer.
-"""
 
 import json
 import re
