@@ -1,17 +1,3 @@
-"""
-Why this file exists:
-    This is the core LangGraph agent workflow required by the assignment.
-
-Responsibility:
-    - Create graph nodes: Input, Memory Retrieval, Hybrid RAG, Knowledge Graph,
-      Tool Calling, LLM, Evaluation, and Response.
-    - Use conditional routing to call tools only when needed.
-    - Return a complete response object for FastAPI and Streamlit.
-
-How it connects to the project:
-    ChatService invokes this compiled graph for every /chat request.
-"""
-
 from typing import Dict
 
 from langgraph.graph import END, StateGraph
