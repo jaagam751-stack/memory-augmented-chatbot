@@ -43,3 +43,7 @@ memory/long_term_memory.json
 data/scraped_content.txt
 # FAISS index
 vectorstore/faiss_index/
+
+# Runtime files
+vectorstore/faiss_index/
+data/memory.json
