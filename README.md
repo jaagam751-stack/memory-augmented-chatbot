@@ -1,6 +1,6 @@
-# 🧠 Memory-Augmented Chatbot with Knowledge Graph and Hybrid RAG System
+# Memory-Augmented Chatbot with Knowledge Graph and Hybrid RAG
 
-An intelligent, agentic chatbot built with **Google Gemini**, **Hugging Face Embeddings**, **FAISS**, **Neo4j**, and **LangGraph** — combining hybrid retrieval, persistent memory, and dynamic tool calling into a single conversational AI system.
+An agentic chatbot built with Google Gemini, Hugging Face embeddings, FAISS, Neo4j, and LangGraph. It combines hybrid retrieval, persistent memory, and dynamic tool calling into a single conversational AI system.
 
 ![Python](https://img.shields.io/badge/Python-3.11%2B-blue?logo=python&logoColor=white)
 ![LangGraph](https://img.shields.io/badge/LangGraph-Agent%20Workflow-orange)
@@ -11,22 +11,17 @@ An intelligent, agentic chatbot built with **Google Gemini**, **Hugging Face Emb
 ![Streamlit](https://img.shields.io/badge/Frontend-Streamlit-FF4B4B?logo=streamlit&logoColor=white)
 ![License](https://img.shields.io/badge/License-Educational%20Use-lightgrey)
 
-> ✅ Built using free-tier APIs only.
-> ❌ No OpenAI dependency anywhere in the project.
+---
+
+## Demo Video
+
+Watch the full walkthrough here: [Project Demo](https://drive.google.com/file/d/1QnjB7NmeNd9wXXCLPY1_iT1KrC-q0dMF/view?usp=drivesdk)
 
 ---
 
-## 🎥 Project Demo Video
+## Overview
 
-📺 **Watch the full demo here:** [Add your demo video link here](https://your-video-link.com)
-
-*(Replace this placeholder with your YouTube / Loom / Google Drive link once the recording is uploaded.)*
-
----
-
-## 📖 Project Overview
-
-This project is a **beginner-friendly, internship-grade agentic AI application** that demonstrates how modern LLM systems combine multiple retrieval and reasoning strategies into one coherent chatbot. It integrates:
+This project is  showing how modern LLM systems combine multiple retrieval and reasoning strategies into one chatbot. It includes:
 
 - Web scraping for document collection
 - Document chunking and Hugging Face embeddings
@@ -35,36 +30,36 @@ This project is a **beginner-friendly, internship-grade agentic AI application**
 - Long-term memory persisted locally in JSON
 - A LangGraph agent workflow with conditional routing
 - Dynamic tool calling for web search and weather data
-- A FastAPI backend and a Streamlit chat frontend
+- A FastAPI backend with a Streamlit chat frontend
 - A lightweight, heuristic-based evaluation framework
 
-The goal is to give a clear, end-to-end reference implementation of a **Hybrid RAG + Knowledge Graph + Memory + Agentic Tooling** architecture that is easy to read, run, and extend.
+The goal is to provide a clear, end-to-end example of a Hybrid RAG + Knowledge Graph + Memory + Agentic Tooling architecture that is easy to read, run, and extend.
 
 ---
 
-## ✨ Features
+## Features
 
 | Feature | Description |
 |---|---|
-| ✔ Hybrid RAG | Combines FAISS vector search with Neo4j graph facts for richer context |
-| ✔ Knowledge Graph | Entities and relationships extracted and stored in Neo4j |
-| ✔ Long-Term Memory | User profile and preferences persisted across sessions |
-| ✔ LangGraph Agent Workflow | Stateful, node-based conditional agent pipeline |
-| ✔ Dynamic Tool Calling | Automatically decides when to call external tools |
-| ✔ Tavily Search | Retrieves current/latest information from the web |
-| ✔ Weather API | Fetches live weather via OpenWeatherMap |
-| ✔ FastAPI Backend | REST API exposing chat, scrape, and ingest endpoints |
-| ✔ Streamlit Frontend | Interactive chat UI with memory and evaluation visibility |
-| ✔ Evaluation Metrics | Transparent, heuristic-based response quality scoring |
-| ✔ Agent Insights Panel | Displays retrieved context, tool usage, and scores in the UI |
-| ✔ Web Scraping | Collects documents from live web pages |
-| ✔ Document Ingestion | Loads and chunks local `.txt` / `.md` files |
-| ✔ Local Memory Storage | Simple, file-based JSON memory store |
-| ✔ FAISS Vector Search | Fast semantic similarity search over document chunks |
+| Hybrid RAG | Combines FAISS vector search with Neo4j graph facts for richer context |
+| Knowledge Graph | Entities and relationships extracted and stored in Neo4j |
+| Long-Term Memory | User profile and preferences persisted across sessions |
+| LangGraph Agent Workflow | Stateful, node-based conditional agent pipeline |
+| Dynamic Tool Calling | Automatically decides when to call external tools |
+| Tavily Search | Retrieves current information from the web |
+| Weather API | Fetches live weather data via OpenWeatherMap |
+| FastAPI Backend | REST API exposing chat, scrape, and ingest endpoints |
+| Streamlit Frontend | Interactive chat UI with memory and evaluation visibility |
+| Evaluation Metrics | Transparent, heuristic-based response quality scoring |
+| Agent Insights Panel | Displays retrieved context, tool usage, and scores in the UI |
+| Web Scraping | Collects documents from live web pages |
+| Document Ingestion | Loads and chunks local `.txt` / `.md` files |
+| Local Memory Storage | Simple, file-based JSON memory store |
+| FAISS Vector Search | Fast semantic similarity search over document chunks |
 
 ---
 
-## 🏗️ Architecture Diagram
+## Architecture
 
 ```text
                         ┌─────────────────────────┐
@@ -100,7 +95,7 @@ The goal is to give a clear, end-to-end reference implementation of a **Hybrid R
 
 ---
 
-## 📂 Folder Structure
+## Folder Structure
 
 ```text
 memory_augmented_chatbot/
@@ -162,13 +157,13 @@ memory_augmented_chatbot/
 
 ---
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 | Layer | Technology |
 |---|---|
 | Programming Language | Python 3.11+ |
 | Agent Workflow | LangGraph |
-| LLM | Google Gemini (Flash family — see [Model Configuration](#-model-configuration--important)) |
+| LLM | Google Gemini (Flash family — see [Model Configuration](#model-configuration--important)) |
 | Embeddings | Hugging Face (`sentence-transformers/all-MiniLM-L6-v2`) |
 | Vector Database | FAISS |
 | Knowledge Graph | Neo4j Community Edition |
@@ -181,7 +176,7 @@ memory_augmented_chatbot/
 
 ---
 
-## ⚙️ Installation Guide
+## Installation
 
 ### 1. Clone or unzip the project
 
@@ -195,18 +190,16 @@ cd memory_augmented_chatbot
 pip install -r requirements.txt
 ```
 
----
+### 3. Set up a virtual environment
 
-## 🐍 Virtual Environment Setup
-
-#### Windows
+**Windows**
 
 ```bash
 python -m venv venv
 venv\Scripts\activate
 ```
 
-#### macOS / Linux
+**macOS / Linux**
 
 ```bash
 python3 -m venv venv
@@ -215,34 +208,26 @@ source venv/bin/activate
 
 ---
 
-## 🔑 Required API Keys
+## Required API Keys
 
-This project uses only free / free-tier services:
+This project uses only free / free-tier services.
 
-### 1. Google Gemini API Key
+**Google Gemini API Key**
+Create an API key at Google AI Studio, then add it to `.env` as `GOOGLE_API_KEY`.
 
-- Go to Google AI Studio.
-- Create an API key.
-- Add it to `.env` as `GOOGLE_API_KEY`.
+**Tavily API Key**
+Create a free Tavily account and add the key to `.env` as `TAVILY_API_KEY`.
 
-### 2. Tavily API Key
+**OpenWeatherMap API Key**
+Create a free OpenWeatherMap account, generate a key, and add it to `.env` as `OPENWEATHER_API_KEY`.
 
-- Create a free Tavily account.
-- Add the key to `.env` as `TAVILY_API_KEY`.
-
-### 3. OpenWeatherMap API Key
-
-- Create a free OpenWeatherMap account.
-- Generate an API key.
-- Add it to `.env` as `OPENWEATHER_API_KEY`.
-
-> Hugging Face embeddings run locally via `sentence-transformers` and **do not require an API key**.
+> Hugging Face embeddings run locally via `sentence-transformers` and do not require an API key.
 
 ---
 
-## ⚠️ Model Configuration — Important
+## Model Configuration — Important
 
-Google frequently deprecates and rotates free-tier Gemini model names, sometimes with little or no advance notice. If you see an error like:
+Google frequently deprecates and rotates free-tier Gemini model names, sometimes with little or no advance notice. You may encounter:
 
 ```text
 404 This model models/gemini-2.5-flash is no longer available
@@ -254,11 +239,11 @@ or
 429 RESOURCE_EXHAUSTED — Quota exceeded for quota metric: generate_content_free_tier_requests
 ```
 
-it means either the model name is deprecated, or your free-tier daily/per-minute quota is exhausted (the free tier is limited to a small number of requests per day per project).
+The first means the model name is deprecated. The second means your free-tier daily/per-minute quota is exhausted.
 
 **How to fix it:**
 
-1. Run this check script to see which models are currently available on your API key:
+1. Run this script to see which models are currently available on your API key:
 
    ```python
    import google.generativeai as genai
@@ -268,7 +253,7 @@ it means either the model name is deprecated, or your free-tier daily/per-minute
            print(m.name)
    ```
 
-2. Update the model name in `app/utils/gemini.py` (or your `.env` if it is configurable there) to a currently supported model, for example:
+2. Update the model name in `app/utils/gemini.py` (or `.env`, if configurable there):
 
    ```env
    GEMINI_CHAT_MODEL=gemini-3.5-flash
@@ -276,45 +261,29 @@ it means either the model name is deprecated, or your free-tier daily/per-minute
 
 3. Restart the FastAPI backend after changing the model name — `.env` values are only loaded at startup.
 
-4. If you hit the daily quota limit, either wait for the daily reset, generate a new API key from a fresh Google AI Studio project, or enable billing for much higher limits.
+4. If you hit the daily quota limit, wait for the daily reset, generate a new API key from a fresh Google AI Studio project, or enable billing for higher limits.
 
-> **Note:** Newer Gemini model generations (3.x series) can occasionally return `response.content` as a list of content blocks instead of a plain string. The `llm_node` in `app/graph/workflow.py` normalizes this automatically so the rest of the pipeline (including the evaluator) always receives a plain string.
+> Newer Gemini model generations (3.x series) can occasionally return `response.content` as a list of content blocks instead of a plain string. The `llm_node` in `app/graph/workflow.py` normalizes this automatically so the rest of the pipeline, including the evaluator, always receives a plain string.
 
 ---
 
-## 🗄️ Neo4j Setup
+## Neo4j Setup
 
-Use **Neo4j Community Edition**.
+Use Neo4j Community Edition.
 
-### Option A: Neo4j Desktop
+**Neo4j Desktop**
 
 1. Install Neo4j Desktop.
 2. Create a local DBMS.
 3. Set a username and password.
 4. Start the database.
-5. Use the bolt URI: `bolt://localhost:7687`.
-
-### Option B: Docker
-
-```bash
-docker run \
-  --name neo4j-community \
-  -p7474:7474 -p7687:7687 \
-  -e NEO4J_AUTH=neo4j/your_password_here \
-  neo4j:community
-```
-
-Open Neo4j Browser at:
-
-```text
-http://localhost:7474
-```
+5. Neo4j Browser is available at `http://localhost:7474`.
 
 ---
 
-## 🌐 Environment Variables
+## Environment Variables
 
-Create a `.env` file in the project root and fill in the following:
+Create a `.env` file in the project root:
 
 ```env
 GOOGLE_API_KEY=your_google_gemini_api_key_here
@@ -326,35 +295,23 @@ NEO4J_USERNAME=neo4j
 NEO4J_PASSWORD=your_neo4j_password_here
 ```
 
-> No OpenAI key is required or used anywhere in this project.
 
 ---
 
-## 🚀 Running the Application
+## Running the Application
 
-This project requires **two terminals running at the same time** — one for the backend and one for the frontend.
+This project requires two terminals running at the same time — one for the backend and one for the frontend.
 
-### Terminal 1 — Run FastAPI (Backend)
-
-From the project root:
+**Terminal 1 — FastAPI backend**
 
 ```bash
 uvicorn main:app --reload
 ```
 
-Swagger docs:
+- Swagger docs: `http://localhost:8000/docs`
+- Health check: `http://localhost:8000/health`
 
-```text
-http://localhost:8000/docs
-```
-
-Health check:
-
-```text
-http://localhost:8000/health
-```
-
-### Terminal 2 — Run Streamlit (Frontend)
+**Terminal 2 — Streamlit frontend**
 
 Activate the same virtual environment in a second terminal, then run:
 
@@ -362,15 +319,11 @@ Activate the same virtual environment in a second terminal, then run:
 streamlit run streamlit_app.py
 ```
 
-Streamlit usually opens at:
-
-```text
-http://localhost:8501
-```
+Streamlit usually opens at `http://localhost:8501`.
 
 ---
 
-## 📡 API Endpoints
+## API Endpoints
 
 | Method | Endpoint | Description |
 |---|---|---|
@@ -380,15 +333,13 @@ http://localhost:8501
 | POST | `/chat` | Sends a message to the chatbot and returns a response |
 | GET | `/history` | Retrieves conversation history for a given user |
 
-### Example Requests
-
-**Health Check**
+**Health check**
 
 ```bash
 curl http://localhost:8000/health
 ```
 
-**Scrape a Webpage**
+**Scrape a webpage**
 
 ```bash
 curl -X POST http://localhost:8000/scrape \
@@ -396,7 +347,7 @@ curl -X POST http://localhost:8000/scrape \
   -d '{"url": "https://example.com", "ingest_after_scrape": true}'
 ```
 
-**Ingest Local Documents**
+**Ingest local documents**
 
 Place `.txt` or `.md` files in `data/documents/`, then run:
 
@@ -422,9 +373,7 @@ curl "http://localhost:8000/history?user_id=aagam"
 
 ---
 
-## 🔄 Workflow Explanation
-
-### LangGraph Flow
+## Workflow
 
 ```text
 Input
@@ -446,20 +395,16 @@ Evaluation
 Response
 ```
 
----
-
-## 🔍 Hybrid RAG Explanation
+### Hybrid RAG
 
 1. The user asks a question.
-2. The question is embedded using the Hugging Face model `sentence-transformers/all-MiniLM-L6-v2`.
+2. The question is embedded using `sentence-transformers/all-MiniLM-L6-v2`.
 3. FAISS retrieves semantically similar document chunks.
 4. Neo4j retrieves related graph facts.
 5. The document context and graph context are merged.
 6. Gemini generates the final answer using the combined context.
 
----
-
-## 🕸️ Knowledge Graph Flow
+### Knowledge Graph
 
 1. Documents are loaded during ingestion.
 2. Gemini extracts entities and relationships from the text.
@@ -467,7 +412,7 @@ Response
 4. Relationships are stored as Neo4j relationships.
 5. During chat, related graph facts are retrieved and added to the response context.
 
-**Example graph facts:**
+Example graph facts:
 
 ```text
 Gemini -[USED_FOR]-> Chatbot
@@ -475,23 +420,17 @@ FAISS -[STORES]-> Embeddings
 Neo4j -[STORES]-> Knowledge Graph
 ```
 
----
+### Memory
 
-## 🧾 Memory Flow
+The chatbot stores long-term memory in `data/memory.json`, including the user's name, preferences, and previous conversations.
 
-The chatbot stores long-term memory in `data/memory.json`, including:
-
-- User name
-- Preferences
-- Previous conversations
-
-**Example interaction:**
+Example interaction:
 
 ```text
 User: My name is Aagam and I like short answers.
 ```
 
-**Stored memory:**
+Stored memory:
 
 ```json
 {
@@ -500,9 +439,7 @@ User: My name is Aagam and I like short answers.
 }
 ```
 
----
-
-## 🧰 Tool Calling Flow
+### Tool Calling
 
 The tool router selects one of the following based on the user's query:
 
@@ -512,7 +449,7 @@ The tool router selects one of the following based on the user's query:
 | Weather API | Current weather questions |
 | None | When local context (memory + RAG + KG) is sufficient |
 
-**Conditional routing:**
+Conditional routing:
 
 ```text
 Tool Decision → call_tool → Tool Calling → LLM
@@ -521,7 +458,7 @@ Tool Decision → skip_tool → LLM
 
 ---
 
-## 📊 Evaluation Metrics
+## Evaluation Metrics
 
 The evaluator returns four heuristic-based scores for each response:
 
@@ -532,11 +469,11 @@ The evaluator returns four heuristic-based scores for each response:
 | Answer Correctness | Simple overlap-based estimate of answer quality |
 | Groundedness | Whether the answer appears grounded in retrieved/tool context |
 
-> This beginner-friendly evaluation approach uses transparent heuristic scoring to avoid dependency on paid evaluator APIs.
+This beginner-friendly approach uses transparent heuristic scoring to avoid dependency on paid evaluator APIs.
 
 ---
 
-## 💬 Example Chat
+## Example Chat
 
 ```text
 User: My name is Aagam and I prefer beginner-friendly explanations.
@@ -554,21 +491,21 @@ Assistant: According to recent Tavily search results...
 
 ---
 
-## 🐞 Troubleshooting
+## Troubleshooting
 
 | Symptom | Likely Cause | Fix |
 |---|---|---|
 | `429 RESOURCE_EXHAUSTED` in chat responses | Free-tier Gemini daily/per-minute quota exhausted | Wait for reset, use a new API key, or enable billing |
-| `404 model is no longer available` | Google deprecated/rotated the model name | Run `genai.list_models()` and update `GEMINI_CHAT_MODEL` in `.env` |
+| `404 model is no longer available` | Google deprecated or rotated the model name | Run `genai.list_models()` and update `GEMINI_CHAT_MODEL` in `.env` |
 | `500 Internal Server Error` with `'list' object has no attribute 'lower'` | Gemini 3.x returned `response.content` as a list of blocks instead of a string | Already handled in `llm_node` (`app/graph/workflow.py`), which normalizes list responses into plain text |
-| Sidebar shows all APIs "Ready" but chat still fails | `/health` only checks that keys are *set*, not that quota is available | Check the FastAPI terminal logs or call `/chat` directly via Swagger (`/docs`) to see the real error in the response body |
-| `Could not reach FastAPI backend` in Streamlit | Backend not running or crashed | Make sure `uvicorn main:app --reload` is running in a separate terminal |
+| Sidebar shows all APIs "Ready" but chat still fails | `/health` only checks that keys are set, not that quota is available | Check the FastAPI terminal logs or call `/chat` directly via Swagger (`/docs`) |
+| "Could not reach FastAPI backend" in Streamlit | Backend not running or crashed | Make sure `uvicorn main:app --reload` is running in a separate terminal |
 
 ---
 
-## 🖼️ Screenshots
+## Screenshots
 
-Add your screenshots here after running the project:
+Add screenshots here after running the project:
 
 ```text
 screenshots/
@@ -580,7 +517,7 @@ screenshots/
 
 ---
 
-## 🔮 Future Improvements
+## Future Improvements
 
 The following are intentionally left out of this beginner-friendly version and are planned as future enhancements:
 
@@ -596,6 +533,6 @@ The following are intentionally left out of this beginner-friendly version and a
 
 ---
 
-## 📄 License
+## License
 
 This project is provided for educational use as part of a beginner-friendly internship learning project. You may use and modify it for learning and portfolio purposes.
