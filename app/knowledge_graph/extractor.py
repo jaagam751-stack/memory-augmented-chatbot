@@ -1,17 +1,3 @@
-"""
-Why this file exists:
-    Neo4j needs structured nodes and relationships, but scraped documents are raw
-    text. This file converts text into a small graph structure.
-
-Responsibility:
-    - Ask Gemini to extract entities and relationships as JSON.
-    - Provide a simple fallback entity extractor if LLM parsing fails.
-
-How it connects to the project:
-    The ingestion service calls this extractor and then sends the result to
-    Neo4jGraphClient for storage.
-"""
-
 import re
 from typing import Dict, List
 
