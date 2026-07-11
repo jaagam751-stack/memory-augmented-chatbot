@@ -225,47 +225,6 @@ Create a free OpenWeatherMap account, generate a key, and add it to `.env` as `O
 
 ---
 
-## Model Configuration — Important
-
-Google frequently deprecates and rotates free-tier Gemini model names, sometimes with little or no advance notice. You may encounter:
-
-```text
-404 This model models/gemini-2.5-flash is no longer available
-```
-
-or
-
-```text
-429 RESOURCE_EXHAUSTED — Quota exceeded for quota metric: generate_content_free_tier_requests
-```
-
-The first means the model name is deprecated. The second means your free-tier daily/per-minute quota is exhausted.
-
-**How to fix it:**
-
-1. Run this script to see which models are currently available on your API key:
-
-   ```python
-   import google.generativeai as genai
-   genai.configure(api_key="YOUR_KEY")
-   for m in genai.list_models():
-       if "generateContent" in m.supported_generation_methods:
-           print(m.name)
-   ```
-
-2. Update the model name in `app/utils/gemini.py` (or `.env`, if configurable there):
-
-   ```env
-   GEMINI_CHAT_MODEL=gemini-3.5-flash
-   ```
-
-3. Restart the FastAPI backend after changing the model name — `.env` values are only loaded at startup.
-
-4. If you hit the daily quota limit, wait for the daily reset, generate a new API key from a fresh Google AI Studio project, or enable billing for higher limits.
-
-> Newer Gemini model generations (3.x series) can occasionally return `response.content` as a list of content blocks instead of a plain string. The `llm_node` in `app/graph/workflow.py` normalizes this automatically so the rest of the pipeline, including the evaluator, always receives a plain string.
-
----
 
 ## Neo4j Setup
 
@@ -501,38 +460,5 @@ Assistant: According to recent Tavily search results...
 | Sidebar shows all APIs "Ready" but chat still fails | `/health` only checks that keys are set, not that quota is available | Check the FastAPI terminal logs or call `/chat` directly via Swagger (`/docs`) |
 | "Could not reach FastAPI backend" in Streamlit | Backend not running or crashed | Make sure `uvicorn main:app --reload` is running in a separate terminal |
 
----
 
-## Screenshots
 
-Add screenshots here after running the project:
-
-```text
-screenshots/
-├── streamlit_chat.png
-├── api_docs.png
-├── neo4j_graph.png
-└── evaluation_scores.png
-```
-
----
-
-## Future Improvements
-
-The following are intentionally left out of this beginner-friendly version and are planned as future enhancements:
-
-- Better entity extraction with domain-specific schemas
-- Improved memory extraction with user approval
-- More advanced evaluation using human-labeled test sets
-- Authentication
-- Docker Compose setup
-- Deployment pipeline
-- Graph visualization inside Streamlit
-- Upload support for PDF/DOCX documents
-- Automatic fallback across multiple Gemini model names when one is deprecated or rate-limited
-
----
-
-## License
-
-This project is provided for educational use as part of a beginner-friendly internship learning project. You may use and modify it for learning and portfolio purposes.
