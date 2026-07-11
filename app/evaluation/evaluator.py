@@ -1,17 +1,3 @@
-"""
-Why this file exists:
-    The assignment requires an evaluation framework for chatbot responses.
-
-Responsibility:
-    - Score context relevance.
-    - Score faithfulness.
-    - Score answer correctness using available context as a reference.
-    - Score groundedness.
-
-How it connects to the project:
-    The LangGraph Evaluation node calls this evaluator. Streamlit displays the
-    returned scores after every chat response.
-"""
 
 from typing import Dict
 
